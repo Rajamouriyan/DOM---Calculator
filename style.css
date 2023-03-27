@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgb(173, 230, 173);
+  }
+  
+  #calcbox {
+    width: 250px;
+    height: 290px;
+    border: 2px solid rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
+  }
+  
+  #row1,
+  #row2,
+  #row3,
+  #row4,
+  #row5 {
+    display: flex;
+    gap: 40px;
+    margin: 15px;
+    padding: 5px;
+  }
+  #result {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 10px;
+    width: 220px;
+    background-color: rgb(192, 189, 189);
+    border: 2px solid rgb(153, 151, 151);
+  }
+  button {
+    border: 0;
+    background-color: rgb(247, 247, 247);
+    cursor: pointer;
+  }
+  
+  #clear {
+    color: red;
+  }
+  
+  #dot,
+  #multiply,
+  #divide,
+  #subtract,
+  #add {
+    color: black;
+  }
+  
+  #equal {
+    background-color: black;
+    width: 100px;
+    padding: 5px;
+    color: white;
+  }
